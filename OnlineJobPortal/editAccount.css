@@ -1,0 +1,45 @@
+body{
+  background-image: url("userAccountImages/wallpaperflare.com_wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+}
+      
+  
+  body {
+    font-family: Arial;
+    font-size: 15px;
+  }
+  
+  
+        
+  input[type="textt"]
+  input[type="email"]
+  input[type="number"]
+  input[type="textarea"]{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(236, 245, 177);
+    box-sizing: border-box;
+  }
+  
+  
+  button[type=submit] {
+    background-color: #dd5c5c;
+    color: white;
+    padding: 14px 20px ;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button[type=submit]:hover {
+    background-color: #b83a3a;
+  }

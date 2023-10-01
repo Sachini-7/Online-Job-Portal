@@ -1,0 +1,12 @@
+.abimg1{
+    width:450px;
+    height:450px;
+}
+.abimg1:hover{
+    -webkit-transform: scale(1.1);
+}
+.abtus{
+    justify-content: center;
+    display:flex;
+    
+}

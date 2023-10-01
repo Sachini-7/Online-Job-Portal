@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #9eaeac;
+    font-size: 14px;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.contact-box{
+    background: rgb(206, 211, 218);
+    display: flex;
+
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+
+}
+.contact-right{
+    flex-basis: 40px;
+    padding:40px;
+    background: #1c00b5;
+    color: #fff;
+}
+
+h1{
+    margin-bottom: 10px;
+
+}
+
+
+.container p{
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input- group{
+    flex-basis: 45%;
+
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline:none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+
+button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td{
+    padding-top: 20px;
+}
+
+.img2{
+    float:bottom;
+    width:150px;
+    height: 50px;
+    border-radius: 8px;
+    
+    }
+
+    .img4,.img5,.img6,.img7{
+        float:bottom;
+        width: 20px;
+        height:20px;
+        border-radius: 8px;
+        }
+
+ .qrcode{
+  float:right;
+ width:50px;
+ height:50px;
+  }     
+
+  #sepHeaderFooter {
+    border : 1px solid black;
+    }
+
+    .menu{
+        list-style-type:none;
+        margin-left:0%;
+        padding:0;
+        overflow:hidden;
+        background-color:black;
+        }
+
+        li.menu{
+            float:left;
+            }
+            
+            li a {
+            display:block;
+            color:white;
+            text-align:center;
+            padding:14px 16px;
+            text-decoration:none;
+            }
+            
+            li a:hover{
+            background-color:lightgreen;
+            }

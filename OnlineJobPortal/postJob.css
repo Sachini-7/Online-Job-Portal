@@ -1,0 +1,84 @@
+.img1{
+  float: left;
+  width: 150px;
+  height:150px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding:10px 20px;
+}
+nav ul li a{
+  color:white;
+  text-decoration: none;
+  font-weight:bold;
+}
+nav ul li a:hover{
+  color:#1E90FF;
+  transition: .3s;
+}
+.container{
+  width: 500px;
+  padding:5%;
+  height:20px;
+  margin-left:-10%;
+  border-radius:10px;
+  border-color:transparent;
+
+  
+}
+
+body{
+  background-image: url("userAccountImages/wallpaperflare.com_wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:100vh;
+}
+
+body {
+  font-family: Arial;
+  font-size: 15px;
+}
+
+      
+input[type="textt"]{
+  width: 50%;
+  padding: 12px 20px;
+  border-radius: 5px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(236, 245, 177);
+  box-sizing: border-box;
+}
+
+
+button[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px ;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button[type=submit]:hover {
+  background-color: #1a631e;
+}
+
+/* Clear data after submission */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+

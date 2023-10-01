@@ -1,0 +1,92 @@
+body {
+        background-image:url("../images/pjBackground.jpg");
+}
+
+.img1{
+    float: left;
+    width: 250px;
+    height:250px;
+}
+
+.userImg {
+	width : 10%;
+	height : 10%;
+	display: block;
+	margin-left: 45%;
+	margin-right: auto;
+}
+
+#sepHeaderFooter {
+	border : 1px solid black;
+}
+
+
+
+#form {
+	background-color : #F9E79F;
+	width : 40%;
+	height : 100%;
+}
+
+#uName , #pwd {
+	width : 40%;
+}
+
+#forgetPwd {
+	text-decoration : none;
+}
+
+#forHr {
+	border : 1px solid;
+}
+
+#signIn , #signUp{
+	background-color : black;
+	color : white;
+	width : 15%;
+	font-size : 16px;
+}
+
+.img2{
+    float:bottom;
+    width:150px;
+    height: 50px;
+    border-radius: 8px;
+
+}
+
+.img4,.img5,.img6,.img7{
+    float:bottom;
+    width: 20px;
+    height:20px;
+    border-radius: 8px;
+}
+
+.qrcode{
+    float:right;
+    width:50px;
+    height:50px;
+}
+
+.btn1{
+    font-family:Arial;
+    font-size:10px;
+    font-weight: bold;
+    background:#2C3E50;
+	color : white;
+    width:100px;
+    padding:10px 15px;
+    text-align: center;
+    text-decoration:none;
+    border-radius: 5px;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#uname {
+	width : 300px;
+	height : 30px;
+	border-radius : 10px;
+	text-align : center;
+	background-color : #D6EAF8;
+}
